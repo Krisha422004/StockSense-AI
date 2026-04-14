@@ -4,6 +4,7 @@ Flask-SQLAlchemy
 Flask-Login
 Flask-Bcrypt
 PyMySQL
+cryptography
 python-dotenv
 requests
 pytz
@@ -13,6 +14,7 @@ numpy
 pandas
 yfinance
 scikit-learn
+scipy
 joblib
 
 # --- Deep Learning & Model Support ---
@@ -24,3 +26,6 @@ matplotlib
 
 # --- System Monitoring ---
 psutil
+
+# --- External APIs ---
+finnhub-python
