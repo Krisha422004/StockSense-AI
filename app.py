@@ -445,7 +445,7 @@ def predict():
         flash(f"Failed to download data for {symbol}: {e}", "danger")
         return redirect(url_for('dashboard'))
 
-    if df.empty or len(df) < WINDOW_SIZE + 5:
+    if df.empty or len(df) < WINDOW_SIZE + 50:
         flash(f"Not enough market data for '{symbol}'.", "danger")
         return redirect(url_for('dashboard'))
 
